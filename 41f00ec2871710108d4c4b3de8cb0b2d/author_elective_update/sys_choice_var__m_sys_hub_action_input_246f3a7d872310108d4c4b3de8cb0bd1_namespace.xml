@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="namespace" table="var__m_sys_hub_action_input_246f3a7d872310108d4c4b3de8cb0bd1" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>namespace</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_246f3a7d872310108d4c4b3de8cb0bd1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 07:14:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a46f3a7d872310108d4c4b3de8cb0bd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 07:14:55</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>namespace</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bmz7ge7p0hcg</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_246f3a7d872310108d4c4b3de8cb0bd1</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 07:14:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>246f3a7d872310108d4c4b3de8cb0bd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 07:14:55</sys_updated_on>
+            <value>bmz7ge7p0hcg</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>namespace</element>
+            <name>var__m_sys_hub_action_input_246f3a7d872310108d4c4b3de8cb0bd1</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-30 07:14:55</sys_created_on>
+            <sys_id>ec6f3a7d872310108d4c4b3de8cb0bd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Oracle Object Storage Management Spoke" source="sn_osm_spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Oracle Object Storage Management Spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-30 07:14:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDefaee0f19c7310109d601c433d1f42b9</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>41f00ec2871710108d4c4b3de8cb0b2d</scope_name>
+        <serialized_content>{"FlowDesigner:FDefaee0f19c7310109d601c433d1f42b9":{},"FlowDesigner:FDefaee0f19c7310109d601c433d1f42b9.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Bucket Details\",\"mandatory\":\"false\",\"uiUniqueId\":\"b18279bd-31ed-45dc-b529-176f7a0a7f94\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDefaee0f19c7310109d601c433d1f42b9\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"8\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 06:58:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3aee0f1877310108d4c4b3de8cb0bba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDefaee0f19c7310109d601c433d1f42b9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Object Storage Management Spoke" source="sn_osm_spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Object Storage Management Spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_scope>
+        <sys_update_name>sys_complex_object_a3aee0f1877310108d4c4b3de8cb0bba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 06:58:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

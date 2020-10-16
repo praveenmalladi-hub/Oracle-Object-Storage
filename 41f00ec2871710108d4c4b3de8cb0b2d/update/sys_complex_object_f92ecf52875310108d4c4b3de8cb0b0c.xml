@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD392ecf52325310100021e22037ef950c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>41f00ec2871710108d4c4b3de8cb0b2d</scope_name>
+        <serialized_content>{"FlowDesigner:FD392ecf52325310100021e22037ef950c":{"$COCollectionField":[{"Tag":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Name":"String","Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Freeform Tags\",\"mandatory\":\"false\",\"child_name\":\"Tag\",\"uiUniqueId\":\"d753149f-d8e4-4977-9f08-68c233ecd2d2\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD392ecf52325310100021e22037ef950c\",\"child_label\":\"Tag\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"2ff01037-1b26-44bd-b14c-c6b76b2febaf\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD392ecf52325310100021e22037ef950c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Freeform Tags\",\"mandatory\":\"false\",\"child_name\":\"Tag\",\"uiUniqueId\":\"d753149f-d8e4-4977-9f08-68c233ecd2d2\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD392ecf52325310100021e22037ef950c\",\"child_label\":\"Tag\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"2ff01037-1b26-44bd-b14c-c6b76b2febaf\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-19 11:20:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f92ecf52875310108d4c4b3de8cb0b0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD392ecf52325310100021e22037ef950c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Object Storage Management Spoke" source="sn_osm_spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Object Storage Management Spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_scope>
+        <sys_update_name>sys_complex_object_f92ecf52875310108d4c4b3de8cb0b0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-19 11:20:41</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

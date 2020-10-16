@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD816069b5dbb31010fe9e37806b847b64</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>41f00ec2871710108d4c4b3de8cb0b2d</scope_name>
+        <serialized_content>{"FlowDesigner:FD816069b5dbb31010fe9e37806b847b64":{"$COCollectionField":[{"Object":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"36f79ef0-bf2a-453d-85d7-7ff05e4a567e\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"74a05989-f237-4c7f-b775-e1741c9ea789\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Object List\",\"mandatory\":\"false\",\"child_name\":\"Object\",\"uiUniqueId\":\"82c28022-bfd8-4a4b-a33c-0608164bb3b7\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD816069b5dbb31010fe9e37806b847b64\",\"child_label\":\"Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"9e8eb6a7-ccef-4260-b408-925566b2829a\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"5bcc89c5-d46a-49b3-88c7-399f5af2c840\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD816069b5dbb31010fe9e37806b847b64.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"74a05989-f237-4c7f-b775-e1741c9ea789\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Object List\",\"mandatory\":\"false\",\"child_name\":\"Object\",\"uiUniqueId\":\"82c28022-bfd8-4a4b-a33c-0608164bb3b7\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD816069b5dbb31010fe9e37806b847b64\",\"child_label\":\"Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"9e8eb6a7-ccef-4260-b408-925566b2829a\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"5bcc89c5-d46a-49b3-88c7-399f5af2c840\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 10:35:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>456069b587b310108d4c4b3de8cb0b64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD816069b5dbb31010fe9e37806b847b64</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oracle Object Storage Management Spoke" source="sn_osm_spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oracle Object Storage Management Spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_scope>
+        <sys_update_name>sys_complex_object_456069b587b310108d4c4b3de8cb0b64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-12 10:35:34</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

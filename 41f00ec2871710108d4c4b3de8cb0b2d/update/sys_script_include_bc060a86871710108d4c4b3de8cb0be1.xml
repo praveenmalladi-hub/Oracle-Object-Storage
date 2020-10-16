@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_osm_spoke.OciObjectStorageManagementUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>OciObjectStorageManagementUtils</name>
+        <script><![CDATA[var OciObjectStorageManagementUtils = Class.create();
+OciObjectStorageManagementUtils.prototype = {
+    initialize: function() {},
+    validateInputVariables: function(inputs, outputs) {
+        for (var key in inputs) {
+            var value = inputs[key];
+            if (typeof value == 'string')
+                inputs[key] = value.trim();
+            else
+                inputs[key] = value;
+        }
+        return inputs;
+    },
+
+    validateMandatoryVariables: function(obj, keys) {
+        keys.forEach(function(key) {
+            if (!obj[key])
+                throw new Error("Error while executing, mandatory information isn't passed in " + key);
+        });
+    },
+
+    maptoOutputFromInput: function(inputs, outputs, keys) {
+        if (keys.length <= 0)
+            for (var key in inputs) {
+                outputs[key] = inputs[key];
+            } else {
+                keys.forEach(function(key) {
+                    outputs[key] = inputs[key];
+                });
+            }
+        return outputs;
+    },
+    createTagsPayload: function(inputTags) {
+        var tags = {};
+        inputTags.forEach(function(property) {
+            if (property.Name)
+                tags[property.Name] = property.Value;
+        });
+        return tags;
+    },
+    trimValues: function(inputArr) {
+        inputArr.forEach(function(inputArr) {
+            for (var key in inputArr) {
+                inputArr[key] = inputArr[key].trim();
+            }
+            return inputArr;
+        });
+
+    },
+    resourceValidation: function(inputarray) {
+        var result = new Array();
+        for (var i = 0; i < inputarray.length; i++) {
+            if (inputarray[i].metadata.namespaceName && inputarray[i].metadata.bucketName) {
+                result.push(inputarray[i]);
+            } else {
+                delete inputarray[i].metadata;
+                result.push(inputarray[i]);
+            }
+        }
+		return result;
+    },
+	download: function(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+},
+    type: 'OciObjectStorageManagementUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 11:35:02</sys_created_on>
+        <sys_id>bc060a86871710108d4c4b3de8cb0be1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OciObjectStorageManagementUtils</sys_name>
+        <sys_package display_value="Oracle Object Storage Management Spoke" source="sn_osm_spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oracle Object Storage Management Spoke">41f00ec2871710108d4c4b3de8cb0b2d</sys_scope>
+        <sys_update_name>sys_script_include_bc060a86871710108d4c4b3de8cb0be1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 09:26:13</sys_updated_on>
+    </sys_script_include>
+</record_update>
